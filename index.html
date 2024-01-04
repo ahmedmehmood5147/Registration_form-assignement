@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Registration Form - SMIT</h1>
+    <form><div class="main_div">
+        <div class="left_div">
+        <label>Select city</label><br>
+        <select  name=""  class="cityName">
+            <option id="cityName"  value="">Select City</option>
+        <option value="">karachi</option>
+        <option value="">lahore</option>
+        <option value="">islamabad</option>
+        <option value="">islamabad</option>
+        <option value="">hyderabad</option>
+        </select><br><br>
+    <label for="">Full Name</label><br>
+    <input required class="fullName" id="fullName" type="text" placeholder="Full name"><br><br>
+    <label for="">Email</label><br>
+    <input required class="email" id="email" type="email" placeholder="Email"><br><br>
+    <label for="">CNIC</label><br>
+    <input required maxlength="13"  class="Cnic" id="Cnic" type="number" placeholder="CNIC"><br><br>
+    <label for="">Date Of Birth</label><br>
+    <input required class="date" id="date" type="date">
+</div>
+<div class="right_div">
+    <label>Select course or event</label><br>
+    <select name="" id="" class="course">
+        <option value="">Select course or event</option>
+    <option value="">HTML</option>
+    <option value="">CSS</option>
+    <option value="">JAVA</option>
+    <option value="">REACT</option>
+    <option value="">FLUTTER</option>
+    </select><br><br>
+    <label  for="">Father name</label><br>
+    <input required class="fatherName" id="fatherName" type="text" placeholder="Father name"><br><br>
+    <label  maxlength="11" for="">Phone</label><br>
+    <input required class="number" id="number" type="number" placeholder="Phone"><br><br>
+    <label  for="">Father's CNIC(optional)</label><br>
+    <input required maxlength="13" class="fatherCnic" id="FatherCnic" type="number" placeholder="Father's CNIC(optional)"><br><br>
+    <label  for="">Select gender</label><br>
+
+    <select name="" id="gender" class="gender">
+        <option value="">Select gender</option>
+    <option value="">Male</option>
+    <option value="">Female</option>
+    </select><br><br>
+</div>
+</div>
+<div class="bottom_div">
+    <label for="">Address</label><br>
+    <input id="address" class="address" type="text" placeholder="Address"><br><br>
+    <label for="">Last qualification</label><br>
+    <input id="qualification" class="Last_qualification" type="text" placeholder="Last qualification"><br><br>
+    <label for="">Do you have a Laptop?</label><br>
+    <input id="laptop" class="laptop" type="text" placeholder="Yes OR No"><br><br>
+    <button onclick="input()" class="button">Submit</button><br><br>
+
+</div></form>
+    <script src="app.js"></script>
+</body>
+</html>

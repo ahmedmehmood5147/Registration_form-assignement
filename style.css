@@ -1,0 +1,184 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+.heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.main_div{
+    display: flex;
+    text-align: center;
+    color: rgb(9, 94, 128);
+    
+}
+.left_div{
+    width: 50%;
+}
+.right_div{
+    width: 50%;
+}
+.cityName {
+    height: 50px;
+    width: 65%;
+    padding: 10px 10px 10px 0px;
+    margin-top: 5px;
+    border: 1px rgb(55, 194, 55) solid;
+    border-radius: 5px;
+}
+.cityName:hover{
+    border: 1px rgb(9, 94, 128) solid;
+}
+.fullName {
+    height: 28px;
+    width: 63.2%;
+    padding: 10px 10px 10px 0px;
+    margin-top: 5px;
+    border: 1px rgb(55, 194, 55) solid;
+    border-radius: 5px;
+}
+.fullName:hover{
+    border: 1px rgb(9, 94, 128) solid;
+}
+.email {
+    height: 28px;
+    width: 63.2%;
+    padding: 10px 10px 10px 0px;
+    margin-top: 5px;
+    border: 1px rgb(55, 194, 55) solid;
+    border-radius: 5px;
+}
+.email:hover{
+    border: 1px rgb(9, 94, 128) solid;
+}
+.Cnic {
+    height: 28px;
+    width: 63.2%;
+    padding: 10px 10px 10px 0px;
+    margin-top: 5px;
+    border: 1px rgb(55, 194, 55) solid;
+    border-radius: 5px;
+}
+.Cnic:hover{
+    border: 1px rgb(9, 94, 128) solid;
+}
+.date {
+    height: 28px;
+    width: 63.2%;
+    padding: 10px 10px 10px 0px;
+    margin-top: 5px;
+    border: 1px rgb(55, 194, 55) solid;
+    border-radius: 5px;
+}
+.date:hover{
+    border: 1px rgb(9, 94, 128) solid;
+}
+.course {
+        height: 50px;
+        width: 65%;
+        padding: 10px 10px 10px 0px;
+        margin-top: 5px;
+        border: 1px rgb(55, 194, 55) solid;
+        border-radius: 5px;
+    }
+    .course:hover{
+        border: 1px rgb(9, 94, 128) solid;
+    }
+    .fatherName {
+        height: 28px;
+        width: 63.2%;
+        padding: 10px 10px 10px 0px;
+        margin-top: 5px;
+        border: 1px rgb(55, 194, 55) solid;
+        border-radius: 5px;
+    }
+    .fatherName:hover{
+        border: 1px rgb(9, 94, 128) solid;
+    }
+    .number {
+        height: 28px;
+        width: 63.2%;
+        padding: 10px 10px 10px 0px;
+        margin-top: 5px;
+        border: 1px rgb(55, 194, 55) solid;
+        border-radius: 5px;
+    }
+    .number:hover{
+        border: 1px rgb(9, 94, 128) solid;
+    }
+    .fatherCnic{
+        height: 28px;
+        width: 63.2%;
+        padding: 10px 10px 10px 0px;
+        margin-top: 5px;
+        border: 1px rgb(55, 194, 55) solid;
+        border-radius: 5px;
+    }
+    .fatherCnic:hover{
+        border: 1px rgb(9, 94, 128) solid;
+    }
+    .gender {
+        height: 50px;
+        width: 65%;
+        padding: 10px 10px 10px 0px;
+        margin-top: 5px;
+        border: 1px rgb(55, 194, 55) solid;
+        border-radius: 5px;
+    }
+    .gender:hover{
+        border: 1px rgb(9, 94, 128) solid;
+    }
+    .address {
+        height: 28px;
+        width: 63.2%;
+        padding: 10px 10px 10px 0px;
+        margin-top: 5px;
+        border: 1px rgb(55, 194, 55) solid;
+        border-radius: 5px;
+    }
+    .address:hover{
+        border: 1px rgb(9, 94, 128) solid;
+    }
+    .bottom_div{
+        text-align: center;
+        color: rgb(9, 94, 128);
+    }
+    .button {
+        height: 40px;
+        border-radius: 5px;
+        width: 8%;
+        background-color: white;
+        border: 1px rgb(55, 194, 55) solid;
+        color: rgb(9, 94, 128) ;
+    }
+    .button:hover{
+        border: 1px rgb(9, 94, 128) solid;
+    }
+    .Last_qualification{
+        height: 28px;
+        width: 63.2%;
+        padding: 10px 10px 10px 0px;
+        margin-top: 5px;
+        border: 1px rgb(55, 194, 55) solid;
+        border-radius: 5px;
+    }
+    .Last_qualification:hover{
+        border: 1px rgb(9, 94, 128) solid;
+    }
+    .laptop {
+        height: 28px;
+        width: 63.2%;
+        padding: 10px 10px 10px 0px;
+        margin-top: 5px;
+        border: 1px rgb(55, 194, 55) solid;
+        border-radius: 5px;
+    }
+    .laptop:hover{
+        border: 1px rgb(9, 94, 128) solid;
+
+    }
+    
